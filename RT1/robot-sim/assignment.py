@@ -85,10 +85,10 @@ def follow_directions(dist,rot_y):
         turn(10,0.1)
     # go fast when we are far
     if(dist>=close):
-        drive(980,0.1)
+        drive(2000,0.1)
     # approach slowly when we are close
     if(dist<close and dist>d_th):
-        drive(980,0.1)
+        drive(2000,0.1)
 
 def get_the_way(code):
     """
